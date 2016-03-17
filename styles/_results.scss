@@ -184,8 +184,18 @@
 	.finalResult {
 		.results {
 			.songInfo {
-				flex: 1 0 100%;
+				width: 100%;
 			}
 		}
 	}
 }
+
+@media (max-width: 320px) {
+	.finalResult {
+		.results .songInfo img{
+			display: none;
+		}
+	}
+}
+
+
